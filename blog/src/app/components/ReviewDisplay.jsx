@@ -7,6 +7,19 @@ export default async function ReviewDisplay({ gameID }) {
   const reviews = review.rows;
   console.log(reviews.rows);
 
+  // async function HandleDelete() {
+  //   try {
+  //   const { data, error } = await db 
+  //   .from('reviews')
+  //   .delete()
+  //   .eq('id', reviews.id)
+
+  //   if (error) throw error;
+  //     window.location.reload();
+  //   } catch (error) {
+  //     alert(error.message)
+  //   }
+  // }
 
   return (
     <div>
@@ -21,6 +34,7 @@ export default async function ReviewDisplay({ gameID }) {
             <p key={review.id}>
               ID - {review.game_id} - {review.username} - {review.review}{" "}
               <button className="submitBtn">Delete</button>
+              {/* onClick={() => HandleDelete(reviews.id)} */}
             </p>
           </div>
         );
