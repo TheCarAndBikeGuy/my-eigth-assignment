@@ -9,7 +9,7 @@ export default async function ReviewDisplay({ gameID }) {
 
   // async function HandleDelete() {
   //   try {
-  //   const { data, error } = await db 
+  //   const { data, error } = await db
   //   .from('reviews')
   //   .delete()
   //   .eq('id', reviews.id)
@@ -29,13 +29,12 @@ export default async function ReviewDisplay({ gameID }) {
         // console.log("This Individual Entry Is the reviews", review);
 
         return (
-          
           <div className="reviewsOutput">
-            <p key={review.id}>
+            <div key={review.id}>
               ID - {review.game_id} - {review.username} - {review.review}{" "}
               <button className="submitBtn">Delete</button>
               {/* onClick={() => HandleDelete(reviews.id)} */}
-            </p>
+            </div>
           </div>
         );
       })}

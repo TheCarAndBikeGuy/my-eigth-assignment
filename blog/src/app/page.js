@@ -28,9 +28,9 @@ export default async function Home({ searchParams }) {
       {games.map(function (game) {
         return (
           <div className="gameOutput">
-            <p key={game.id}>
+            <div key={game.id}>
               ID: {game.id} - {game.name} - {game.creator} - {game.rating}/10 -{" "}
-            </p>
+            </div>
             <ReviewDisplay gameID={game.id} />
           </div>
         );
