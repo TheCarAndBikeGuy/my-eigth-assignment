@@ -29,8 +29,8 @@ export default async function ReviewDisplay({ gameID }) {
         // console.log("This Individual Entry Is the reviews", review);
 
         return (
-          <div className="reviewsOutput">
-            <div key={review.id}>
+          <div key={review.id} className="reviewsOutput">
+            <div>
               ID - {review.game_id} - {review.username} - {review.review}{" "}
               <button className="submitBtn">Delete</button>
               {/* onClick={() => HandleDelete(reviews.id)} */}
