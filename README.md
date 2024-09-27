@@ -1,2 +1,5 @@
-# my-eigth-assignment
+# my-eighth-assignment / Favourite Game Database
+
+Deployed On Vercel - https://my-eigth-assignment.vercel.app/
+
 I managed to achieve everything aside from the delete button as I could not figure out how to write the function to connect it to the database through Supabase. I tried my best throughout the assignment but did struggle a good amount so I need to learn how to work with database more. I found sorting the forms and displaying the reviews on the page really difficult, as I could not figure out how to get them to show on the page. If I could, could I have some feedback on what you would have done for the delete button like the function? I gave it a go as you can see but could not seem to get it to work. I used Youtube, W3School and my tutors to help me. I encountered a good few errors, but tried to work through them by googling and looking through documents and if I could not work that out I asked my tutors. I believe I did a good job with the styling and working that out. However, I beleieve I could work on my knowledge on database and importing it and using it in Code.
